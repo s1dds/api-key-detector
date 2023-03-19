@@ -1,10 +1,10 @@
-import setuptools
+from setuptools import find_packages, setup
 
 with open("README.md", "r") as fh:
 	description = fh.read()
 REQUIREMENTS = [i.strip() for i in open("api_key_detector/requirements.txt").readlines()]
 
-setuptools.setup(
+setup(
 	name="api_key_detector",
 	version="1.0.0",
 	author="Siddharth Saxena",

@@ -6,7 +6,7 @@ REQUIREMENTS = [i.strip() for i in open("api_key_detector/requirements.txt").rea
 
 setup(
 	name="api_key_detector",
-	version="1.0.0",
+	version="1.0.3",
 	author="Siddharth Saxena",
 	author_email="sidds020@gmail.com",
 	packages=find_packages(),

@@ -2,11 +2,11 @@ from setuptools import find_packages, setup
 
 with open("README.md", "r") as fh:
 	description = fh.read()
-REQUIREMENTS = [i.strip() for i in open("api_key_detector/requirements.txt").readlines()]
+REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 
 setup(
 	name="api_key_detector",
-	version="1.0.3",
+	version="1.0.4",
 	author="Siddharth Saxena",
 	author_email="sidds020@gmail.com",
 	packages=find_packages(),
